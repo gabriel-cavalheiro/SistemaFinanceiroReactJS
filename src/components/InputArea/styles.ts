@@ -35,14 +35,19 @@ export const Button = styled.button`
     width: 100%;
     height: 30px;
     padding: 0 5px;
-    border: 1px solid lightblue;
+
+    font-weight: bold ;
+
+    border: none;
     border-radius: 5px;
-    background-color: lightblue;
-    color: black;
+
+    background-color: #9F64E5;
+    color: #fafafa;
     cursor: pointer;
 
+    transition: .5s ease;
+
     &:hover {
-        background-color: blue;
-        color: white;
+        background-color: #490187;
     }
 `;

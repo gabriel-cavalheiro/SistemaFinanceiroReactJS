@@ -5,9 +5,10 @@ export const Container = styled.div`
 `;
 
 export const Header = styled.div`
-    background-color: darkblue;
+    background-color: #490187;
     height: 150px;
     text-align: center;
+    box-shadow: 0px 0px 20px #490187;
 `;
 
 export const HeaderText = styled.h1`
